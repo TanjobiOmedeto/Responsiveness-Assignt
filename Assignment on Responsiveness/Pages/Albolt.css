@@ -1,0 +1,107 @@
+ @media only screen and (max-width: 1440px){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color: hsl(0, 0%, 95%);
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 35px;
+        right: 297px;
+    }
+    h2{
+        color: hsl(0, 0%, 95%);
+    }
+    p{
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    a{
+        text-decoration: none;
+    } 
+    .nnn{
+        color: hsl(184, 100%, 22%);
+    }
+    .bbb{
+        color: hsl(179, 100%, 13%);
+    }
+    .vvv{
+        color: hsl(31, 77%, 52%);
+    }
+    .vvv:hover{
+        color: white;
+    }
+    .bbb:hover{
+        color: white;
+    }
+    .nnn:hover{
+        color: white;
+    }
+    .adhd:hover{
+        border: solid white;
+        background-color: hsl(31, 77%, 52%);
+        cursor: pointer;
+    }
+    .adsp:hover{
+        border: solid white;
+        background-color: hsl(184, 100%, 22%);
+        cursor: pointer;
+    }
+    .asap:hover{
+        border: solid white;
+        background-color: hsl(179, 100%, 13%);
+        cursor: pointer;
+    }
+    button{
+        margin-left: 5px;
+        padding: 9px;
+        background-color: hsl(0, 0%, 95%);
+        border: none;
+        border-radius: 20px;
+        width: 130px;
+    }
+    .Wiggle1{
+        background-color: hsl(31, 77%, 52%);
+        height: 360px;
+        padding: 30px;
+        border-top-left-radius: 9px;
+        border-bottom-left-radius: 9px;
+        
+    }
+    .edd{
+        margin: 0;
+    }
+    .Wiggle2{
+        background-color: hsl(184, 100%, 22%);
+        height: 360px;
+        padding: 30px;
+    }
+    .Wiggle3{
+        background-color: hsl(179, 100%, 13%);
+        height: 360px;
+        padding: 30px;
+        border-top-right-radius: 9px;
+        border-bottom-right-radius: 9px;
+    }  
+} 
+@media only screen and (max-width: 376px){
+    section{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 35px;
+        right: 47px;
+    }
+    .Wiggle1{
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+    }
+    .Wiggle3{
+        border-bottom-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+        border-top-right-radius: 0px;
+    }
+}
